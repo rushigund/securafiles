@@ -2,7 +2,6 @@ from PyQt5 import QtWidgets, uic
 from encrypt import *
 from zip import *
 from psw import createpass
-import database
 class Ui(QtWidgets.QMainWindow):
     createpass()
     def __init__(self):

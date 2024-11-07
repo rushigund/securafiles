@@ -3,7 +3,6 @@ from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 from Crypto import Random
 from os import remove
-
 global c
 def encrypt(key, filename):
     os.access(filename, os.R_OK)
